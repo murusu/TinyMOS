@@ -1,0 +1,4 @@
+RewriteEngine on   
+RewriteCond %{REQUEST_URI} !^.*(.css|.js|.gif|.png|.jpg|.jpeg|robots\.txt|favicon\.ico)$
+RewriteCond $1 !^(index\.php)   
+RewriteRule ^(.*)$ /CodeIgniter/index.php/$1 [L]
