@@ -9,6 +9,8 @@
 <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 400px)" href="<?php echo base_url(); ?>static/css/tinyScreen.css" />
 <link rel="stylesheet" type="text/css" media="screen and (min-width: 400px) and (max-device-width: 600px)" href="<?php echo base_url(); ?>static/css/smallScreen.css" />
 ---------------->
+<script src="<?php echo base_url(); ?>static/js/jquery-1.7.2_min.js"></script>
+<script src="<?php echo base_url(); ?>static/js/base.js"></script>
 <!--[if lt IE 9]>
 　<script src="<?php echo base_url(); ?>static/js/css3-mediaqueries.js"></script>
 <![endif]-->

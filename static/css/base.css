@@ -12,17 +12,17 @@ small {
 	font-size: 0.875em;
 }
 
-.center {
+.div_center {
 	margin-left:auto;
 	margin-right:auto;
 }
 
-.login_main {
+.login_part {
 	width:75%;
 	margin-top:5%;
 }
 
-.title {
+.text_center {
 	text-align:center;
 }
 
@@ -49,3 +49,6 @@ small {
 	clear:both;
 }
 
+.disable {
+	display:none;
+}
